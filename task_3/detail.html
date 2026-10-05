@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Detail Pendaftaran</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class = "header">
+            <h1>Pengembangan Aplikasi Web</h1>
+        </header>
+
+        <main class = "container">
+            <section class = "card"> 
+                <h2>Detail Pendaftaran</h2>
+                <p class = "subtitle">Data di bawah ini masih dummy. Halaman ini belum membaca query string.</p>
+                <table>
+                    <caption>Informasi Pendaftar</caption>
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Informasi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Nama lengkap</th>
+                            <td>Mega Zayyani</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">NIM</th>
+                            <td>123140180</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Email</th>
+                            <td>mega@example.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Tanggal lahir</th>
+                            <td>2005-07-15</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Jenis kelamin</th>
+                            <td>Perempuan</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Motivasi</th>
+                            <td>Ingin belajar membuat aplikasi web.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+
+                <div class = "query-box">
+                    <strong>Desain query string yang dikirim dari form:</strong><br>
+                    <span id="query-string"></span>
+                        detail.html?nama=Mega+Zayyani&amp;nim=123140180&amp;email=mega%40example.com&amp;lahir=2005-07-15&amp;gender=Perempuan&amp;motivasi=Ingin+belajar+membuat+aplikasi+web.
+                </div>
+                    
+                <br>
+                <div class = "tombol-area">
+                    <a href="index.html" class="tombol"><- Kembali ke Form Pendaftaran</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class = "footer">
+            <p>&copy; Tugas Pengembangan Aplikasi Web. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
